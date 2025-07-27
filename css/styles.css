@@ -1,7 +1,7 @@
-/* Подключение шрифтов */
+/* Connecting fonts */
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Playfair+Display:wght@700&display=swap');
 
-/* Сброс и базовые настройки */
+/* Reset and basic settings */
 * {
   margin: 0;
   padding: 0;
@@ -17,7 +17,7 @@ body {
   min-height: 100vh;
 }
 
-/* Хедер */
+/*Header*/
 header {
   display: flex;
   justify-content: space-between;
@@ -52,14 +52,14 @@ header {
   color: #ffccbc;
 }
 
-/* Основной контент */
+/* Main content */
 main {
   max-width: 1200px;
   margin: 2rem auto;
   padding: 0 1rem;
 }
 
-/* Hero секция */
+/* Hero section */
 .hero {
   display: flex;
   align-items: center;
@@ -108,9 +108,9 @@ main {
   border-radius: 12px;
   object-fit: cover;
   box-shadow: 0 6px 15px rgba(111, 78, 55, 0.3);
-}
+} 
 
-/* Featured меню */
+/* Featured menu */
 .featured_menu {
   margin-bottom: 4rem;
 }
@@ -308,7 +308,7 @@ main {
   border-left: 3px solid #6f4e37;
 }
 
-/* Меню */
+/* Menu */
 .menu-main {
   padding: 2rem;
   font-family: 'Segoe UI', sans-serif;
@@ -388,7 +388,7 @@ main {
   color: #5d4037;
 }
 
-/* Форма */
+/* Form */
 .form h1 {
   font-size: 2rem;
   margin-bottom: 0.5rem;
@@ -452,7 +452,7 @@ button:hover {
   background-color: #5d4037;
 }
 
-/* Футер */
+/* Footer */
 footer {
   background-color: #6f4e37;
   color: #fff;
@@ -471,7 +471,7 @@ footer a:hover {
   text-decoration: underline;
 }
 
-/* Адаптивность */
+/* Adaptability */
 @media (max-width: 900px) {
   .about-section {
     flex-direction: column;
